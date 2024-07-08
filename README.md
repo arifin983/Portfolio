@@ -1,36 +1,112 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Arifin.com
+
+Arifin.com is a personal portfolio website built with Next.js. It showcases projects, skills, and experiences. The website utilizes various modern technologies and libraries to create an interactive and visually appealing user experience.
+
+## Table of Contents
+
+- [Arifin.com](#arifincom)
+  - [Table of Contents](#table-of-contents)
+  - [Features](#features)
+  - [Tech Stack](#tech-stack)
+    - [Frontend](#frontend)
+    - [Animations](#animations)
+    - [3D Rendering](#3d-rendering)
+    - [Icons](#icons)
+    - [Styling](#styling)
+  - [Prerequisites](#prerequisites)
+  - [Getting Started](#getting-started)
+  - [Scripts](#scripts)
+  - [Environment Variables](#environment-variables)
+  - [Deployment](#deployment)
+  - [Contact](#contact)
+  - [License](#license)
+
+## Features
+
+- Interactive 3D elements
+- Smooth animations
+- Dark mode support
+- Wide variety of icons
+
+## Tech Stack
+
+### Frontend
+
+- Next.js
+- React
+
+### Animations
+
+- Framer Motion
+- React Lottie
+
+### 3D Rendering
+
+- Three.js
+- @react-three/fiber
+
+### Icons
+
+- Lucide React
+- Tabler Icons React
+- React Icons
+
+### Styling
+
+- Tailwind CSS
+- clsx
+- tailwind-merge
+- class-variance-authority
+
+## Prerequisites
+
+- Node.js >= 14.0.0
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+    ```sh
+    git clone https://github.com/your-username/arifin.com.git
+    cd arifin.com
+    ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+    ```sh
+    npm install
+    ```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. Start the development server:
 
-## Learn More
+    ```sh
+    npm run dev
+    ```
 
-To learn more about Next.js, take a look at the following resources:
+    The application will be available at [arifin.com](https://arifin.vercel.app).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Scripts
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- `dev`: Starts the development server.
+- `build`: Builds the application for production.
+- `start`: Starts the production server.
+- `lint`: Runs ESLint to lint the codebase.
 
-## Deploy on Vercel
+## Environment Variables
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The project uses the following environment variables:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- `NEXT_PUBLIC_BASE_URL`: The base URL of your application.
+- `NEXT_PUBLIC_API_URL`: The URL of your API.
+
+## Deployment
+
+The application is hosted on Vercel at [arifin.com](https://arifin.vercel.app).
+
+## Contact
+
+For any inquiries, please contact [arifuddin.danin@gmail.com](mailto:arifuddin.danin@gmail.com).
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
