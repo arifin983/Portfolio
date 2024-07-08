@@ -83,7 +83,7 @@ Arifin.com is a personal portfolio website built with Next.js. It showcases proj
     npm run dev
     ```
 
-    The application will be available at [arifin.com](https://arifin.vercel.app).
+    The application will be available at [https://arifin-aw0belbas-arifin983s-projects.vercel.app](https://arifin-aw0belbas-arifin983s-projects.vercel.app).
 
 ## Scripts
 
@@ -101,7 +101,7 @@ The project uses the following environment variables:
 
 ## Deployment
 
-The application is hosted on Vercel at [arifin.com](https://arifin.vercel.app).
+The application is hosted on Vercel at [https://arifin-aw0belbas-arifin983s-projects.vercel.app](https://arifin-aw0belbas-arifin983s-projects.vercel.app).
 
 ## Contact
 
