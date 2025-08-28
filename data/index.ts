@@ -26,6 +26,14 @@ export const techStack = [
     id: 5,
     logo: "techTypescript.svg",
   },
+   {
+    id:18,
+    logo:"cplusplus.svg"
+  },
+  {
+    id:19,
+    logo:"mysql2.svg"
+  },
   {
     id: 6,
     logo: "techMongodb.svg",
@@ -35,6 +43,11 @@ export const techStack = [
     logo: "techPostgreySQL.svg",
   },
   {
+    id:20,
+    logo:'django2.svg'
+  }
+  ,
+  {
     id: 8,
     logo: "techNodeJs.svg",
   },
@@ -42,6 +55,11 @@ export const techStack = [
     id: 9,
     logo: "techExpressJs.svg",
   },
+  {
+    id:21,
+    logo:"nestjs.svg"
+  }
+  ,
   {
     id: 10,
     logo: "techReactJs.svg",
@@ -67,8 +85,19 @@ export const techStack = [
     logo: "techBootstrap.svg",
   },
   {
+    id:22,
+    logo:"git1.svg"
+  },
+  {
     id: 16,
     logo: "techGithub.svg",
+  },
+  {
+    id:23,
+    logo:"redis.svg"
+  },
+  {id:24,
+  logo:"aws.svg"
   },
   {
     id: 17,
@@ -140,6 +169,38 @@ export const gridItems = [
 
 export const projects = [
   {
+    id:5,
+    title:"Goals Zone",
+    des:"Is a enterprise level Football Saas application with AI integration and Multi role user system where large tournament can be handled",
+    img:"goalszone.png",
+    iconLists:[
+      "/ts.svg",
+      "/re.svg",
+      "techMongodb.svg",
+      "stripe.svg",
+      "/aws.svg"
+
+    ],
+    link: "https://goalszone.vercel.app",
+  },
+   {
+    id:6,
+    title:"Airbnb Clone",
+    des:"It is a exact clone of Airbnb using Django as backend And Next.js as client site",
+    img:"airbnb.png",
+    iconLists:[
+      "techPython.svg",
+      "django2.svg",
+       "/ts.svg",
+      "/next.svg",
+      "techPostgreySQL.svg",
+      "stripe.svg",
+      "/tail.svg",
+
+    ],
+    link: "https://goalzzone-lime.vercel.app/",
+  },
+    {
     id: 1,
     title: "CaseCobra is a mobile case (cover) designing and making website",
     des: "CaseCobra is a mobile case (cover) designing and making website where users can create custom phone covers according to your desired design..",
@@ -285,8 +346,8 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Full Stack Engineer - JDesign Technologies",
+    desc: "Designed, developed, and deployed end-to-end web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js) and Next.js. and Nest js",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },

@@ -36,7 +36,7 @@ const Footer = () => {
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
         <p className="md:text-base text-sm md:font-normal font-light">
-          Copyright © 2024 Arif UdDin
+          Copyright © {new Date().getFullYear()} Arif UdDin
         </p>
 
         <div className="flex items-center md:gap-3 gap-6">
@@ -54,7 +54,7 @@ const Footer = () => {
               <img src={socialMedia[1].img} alt="icons" width={20} height={20} />
             </div>
             </Link>
-          <Link href="https://www.linkedin.com/in/arif-uddin-a99273230" target="blank">
+          <Link href="https://www.linkedin.com/in/arifin983" target="blank">
             <div
               className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
             >

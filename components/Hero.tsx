@@ -58,7 +58,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Muhammad Arif Ud Din, a full stack and Next.js Developer based in Pakistan.
+            Hi! I&apos;m Muhammad Arif Ud Din, a Software Engineer based in Pakistan.
           </p>
 
           <a href="#about">
@@ -68,7 +68,7 @@ const Hero = () => {
               position="right"
             />
           </a>
-          <a href="#Resume" onClick={() => window.open('/myResume.pdf', '_blank')}>
+          <a href="#Resume" onClick={() => window.open('/Muhammad_Arif_UdDin_Resume_1.4.pdf', '_blank')}>
             <MagicButton
               title="My Resume"
               icon={<FaLocationArrow />}
