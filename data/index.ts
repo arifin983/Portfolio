@@ -198,7 +198,7 @@ export const projects = [
       "/tail.svg",
 
     ],
-    link: "https://goalzzone-lime.vercel.app/",
+    link: "https://arifbnb.netlify.app",
   },
     {
     id: 1,
